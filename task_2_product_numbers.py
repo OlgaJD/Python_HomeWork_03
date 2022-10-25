@@ -6,7 +6,7 @@
 from random import randint
 
 def create_list():
-    new_list = [int(input(f"Введите элемент {i+1} спика: ")) for i in range(int(input('Введите длину списка: ')))]
+    new_list = [int(input(f"Введите элемент {i+1} списка: ")) for i in range(int(input('Введите длину списка: ')))]
     return new_list
 
 def elements_summ (user_list):
